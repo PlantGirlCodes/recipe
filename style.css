@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a19797d5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #a19797d5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cover-photo img {
+    width: 80%;
+    height: 10%;
+  }
+  
+  .cover-text {
+    position: bottom;
+    font-size: 32px;
+    color: #333333;
+  }
+  
+  main {
+    padding: 40px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #2a2525;
+  }
+
+  h3 {
+    color: #3a3434;
+
+  }
+  
+  .ingredient-list,
+  .directions-list,
+  .nutrition-table {
+    margin-left: 40px;
+  }
+
+  .directions-list{
+      margin-right: 400px
+  }
+  
+  .nutrition-table {
+  width: 15%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #e0e0e0;
+}
+
+tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+  
+  .footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    background-color:#a19797d5 ;
+  }
+  
+  .photo-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px
+  }
+  
+  .photo-gallery img {
+    margin: 0 10px;
+    width: 500px;
+    height: 500px;
+  }
+  
